@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    margin:0;
+    padding: 0;
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.juego {
+    position: relative;
+}
+
+section {
+    position: absolute;
+    top:12%;
+    left: 14%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    
+    
+}
+button {
+    padding: 15px 25px; 
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.text {
+    position: absolute;
+    text-align: center;
+    right: 8%;
+    top: 50px;
+    color:white;
+    font-size: 26px;
+    text-shadow: 6px 6px 16px black;
+   
+
+}
+
+.botonl{
+    position: absolute;
+    width: 45%;
+    left: 1px;
+}
+
+.botonr{
+    position: absolute;
+    width: 45%;
+    right: 1px;
+}
+
+.instrucciones, .controles{
+    background-color: rgba(0,0,0,0.6);
+}
+
+
+
