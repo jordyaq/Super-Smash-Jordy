@@ -9,21 +9,26 @@ body{
     background-image: url(fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
-.juego {
-    position: relative;
-}
+
+
+
 
 section {
     position: absolute;
-    top:12%;
+    top:120px;
     left: 14%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     flex-direction: column;
+    background-image: url('controles.png');
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 700px;
     
     
 }
@@ -37,7 +42,7 @@ button {
     position: absolute;
     text-align: center;
     right: 8%;
-    top: 50px;
+    top: 200px;
     color:white;
     font-size: 26px;
     text-shadow: 6px 6px 16px black;
